@@ -1,0 +1,127 @@
+html, body {
+  margin : 0;
+  padding: 0;
+  width : 100%;
+  background: #d9e2e2;
+}
+
+header img {
+width : 1200px;
+clip-path: polygon(0% 0%, 100% 0%, 100% 13%, 100% 15%, 83% 15%, 15% 15%, 0 38%);
+margin-left : 35px;
+
+}
+
+.function {
+
+  position : relative;
+  font-family : "League Script", cursive;
+  font-size : 56px;
+  margin-top : -650px;
+  margin-left: 500px;
+  font-weight: bold;
+
+
+}
+.imgcv img{
+  position : relative;
+  width: 200px;
+  margin-left : 200px;
+  margin-top : -200px;
+  clip-path: circle(50%);
+
+}
+
+.iam {
+  position : relative;
+  font-family : "KoHo";
+  font-size : 20px;
+  line-height: 20px;
+  margin-top : 500px;
+  margin-left : 835px;
+}
+
+.container {
+
+width: 1000px;
+margin : 400px auto auto 180px;
+display : flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+/*compétences*/
+
+.skills {
+  margin : 0 0 0 0;
+  border-right : 3px solid #62975d;
+  padding-right : 50px;
+}
+.skills h2 {
+  font-family : "Gravitas One";
+}
+
+.skills ul {
+  font-family : "KoHo";
+  line-height: 20px;
+}
+
+.language {
+ font-family : "KoHo";
+}
+.jauge {
+  width: 300px;
+  background-color: #b6bfae;
+  height: 20px;
+}
+.anglais {
+  width:75%;
+  background-color: #62975d;
+  line-height: 20px;
+  margin : 5px 5px 5px 0;
+}
+.néerlandais {
+  width:30%;
+  background-color: #62975d;
+  line-height: 20px;
+  margin : 5px 5px 5px 0;
+
+}
+.français {
+  width:300px;
+  background-color: #62975d;
+  line-height: 20px;
+  margin : 5px 5px 5px 0;
+
+}
+
+/* réseaux sociaux*/
+.rs {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.rs i {
+  font-size : 30px;
+  margin : 0 20px 0 30px;
+}
+.rs a{
+  text-decoration : none;
+  color : #62975d;
+}
+
+/*col 2 : expériences*/
+.XP {
+font-family : "KoHo";
+line-height: 20px;
+margin : 0 0 0 -50px;
+padding: 0;
+}
+.expériences {
+  font-family : "Gravitas One";
+}
+
+.pro h3 {
+  font-family : "Gravitas One";
+  font-size : 15px;
+}
